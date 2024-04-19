@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply text-teal-900;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .form-label {
+    @apply text-xs my-2 text-teal-900;
+  }
+
+  .form-input {
+    @apply text-xs py-2 px-2 border-b rounded-sm focus:outline-none focus:drop-shadow-md;
+  }
+
+  .btn {
+    @apply text-sm text-center relative py-3 px-6 m-2 text-teal-50 rounded-md  bg-teal-500 shadow-sm hover:shadow-md transition-shadow duration-300 ease-out cursor-default;
+  }
+
+  .error {
+    @apply text-sm text-center relative py-3 px-6 rounded-t-md text-red-600 bg-slate-950 shadow-sm hover:shadow-md;
+  }
+}

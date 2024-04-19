@@ -1,27 +1,67 @@
-# RoomroverAngular
+# NextJS app - Susant Shrestha - N01550307
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+## Task List
 
-## Development server
+1. **Login Feature**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+   - Description: Implemented user login functionality.
+   - Status: Completed
 
-## Code scaffolding
+2. **Signup Feature**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   - Description: Implemented user signup with email verification.
+   - Status: Completed
 
-## Build
+3. **Email Verification Feature**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   - Description: Added email verification for user accounts.
+   - Status: Completed
 
-## Running unit tests
+4. **Dashboard for Guest and Host**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   - Description: Created a base dashboard for both guest and host users.
+   - Status: Completed
 
-## Running end-to-end tests
+5. **Display All Rooms Feature**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   - Description: Added a feature to display all available rooms.
+   - Status: Completed
 
-## Further help
+6. **Room Details View**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   - Description: Implemented a feature to view detailed room information.
+   - Status: Completed
+
+7. **Room Search Feature**
+
+   - Description: Added a feature to search for rooms.
+   - Status: Completed
+
+8. **Room Filtering Feature**
+
+   - Description: Implemented room filtering based on minimum and maximum prices.
+   - Status: Completed
+
+9. **Create, List, and Update Rooms by Host**
+
+   - Description: Added functionality for hosts to create, list, and update rooms.
+   - Status: Completed
+
+10. **Firebase Integration for Image Uploads**
+    - Description: Integrated Firebase for uploading room images.
+    - Status: Completed
+
+## Usage
+
+- Clone the repository
+- Install dependencies using `npm install`
+- Start the development server using `npm start`
+
+## Technologies Used
+
+- Angular 17
+- Firebase
+
+## Contributors
+
+- Susant Shrestha
